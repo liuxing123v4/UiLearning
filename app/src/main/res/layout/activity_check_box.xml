@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".CheckBoxActivity">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="291dp"
+		android:orientation="vertical">
+
+		<CheckBox
+			android:id="@+id/checkBox_samsung"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="三星" />
+
+		<CheckBox
+			android:id="@+id/checkBox_apple"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="苹果" />
+
+		<CheckBox
+			android:id="@+id/checkBox_xiaomi"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+
+			android:text="小米" />
+
+		<CheckBox
+			android:id="@+id/checkBox_huawai"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="华为" />
+
+	</LinearLayout>
+
+</LinearLayout>
